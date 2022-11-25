@@ -2,15 +2,18 @@ import styled from "styled-components";
 
 export const StyledCard = styled.li`
   background-color: var(--color-grey-20);
-  height: 300px;
+  height: 342px;
   min-width: 225px;
 
   display: flex;
   flex-direction: column;
   border: 2.5px solid var(--color-grey-20);
   border-radius: 6px;
+
+  @media(min-width: 800px) {
+    width: 220px;
+  }
   figure img {
-    /* width: 100%; */
     height: 100%;
   }
   figure {

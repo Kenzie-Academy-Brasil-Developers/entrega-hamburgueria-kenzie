@@ -6,4 +6,12 @@ export const StyledProductList = styled.ul`
   gap: 20px;
   padding: 20px 0 20px 20px;
   min-height: 345px;
+  @media (min-width: 800px) {
+    margin-top: 20px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: fit-content;
+  }
 `;

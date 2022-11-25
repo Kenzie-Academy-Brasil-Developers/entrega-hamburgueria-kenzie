@@ -1,14 +1,21 @@
 import styled from "styled-components";
 
 export const CartOrganizer = styled.div`
+  width: 88vw;
   max-width: 390px;
   display: flex;
   flex-direction: column;
   margin: 20px 0 20px 20px;
-  padding: 0 20px 20px 0;
+
   margin-bottom: 40px;
   background-color: var(--color-grey-0);
-
+  @media (min-width: 800px) {
+    margin-top: 40px;
+    height: fit-content;
+    max-height: 600px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+  }
 
   .cart-header {
     height: 50px;
@@ -21,6 +28,7 @@ export const CartOrganizer = styled.div`
 
     color: var(--color-text-in-primary);
     font-size: 1.4rem;
+    
   }
 
   .cart-items {
@@ -28,6 +36,10 @@ export const CartOrganizer = styled.div`
     min-height: 50px;
     max-height: 250px;
     overflow-y: scroll;
+    @media (min-width: 800px) {
+      min-height: 90px;
+      max-height: 350px;
+    }
   }
 
   .cart-infos {
@@ -36,7 +48,6 @@ export const CartOrganizer = styled.div`
     padding: 12px 0 12px 0;
     display: flex;
     min-width: 100%;
-    
   }
   .remove-all-items {
     height: 40px;

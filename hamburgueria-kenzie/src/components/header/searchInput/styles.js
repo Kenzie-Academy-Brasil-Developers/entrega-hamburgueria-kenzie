@@ -4,8 +4,12 @@ export const Form = styled.form`
   width: 100%;
   height: 48px;
   padding: 0 10px 0 10px;
-
   position: relative;
+
+  @media(min-width: 800px){
+    width: 400px;
+  }
+
   input {
     height: 48px;
     width: 100%;

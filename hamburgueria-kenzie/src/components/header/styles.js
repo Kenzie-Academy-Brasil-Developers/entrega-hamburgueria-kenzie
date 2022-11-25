@@ -9,6 +9,12 @@ export const StyledHeader = styled.header`
   flex-direction: column;
   align-items: center;
   height: 120px;
+  @media(min-width: 800px){
+    flex-direction: row;
+    gap: 43%;
+    padding: 0 20px 0 20px;
+    justify-content: space-evenly;
+  }
 
   h1 {
     font-size: 3rem;
