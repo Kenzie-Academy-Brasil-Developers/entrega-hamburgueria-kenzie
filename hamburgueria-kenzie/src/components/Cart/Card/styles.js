@@ -15,7 +15,6 @@ export const StyledCard = styled.div`
 
   @media (min-width: 800px) {
     height: fit-content;
-    
   }
 
   figure img {

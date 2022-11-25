@@ -17,7 +17,7 @@ function App() {
       cartItems[verify].quantity += 1;
       setCartItems([...cartItems]);
     } else {
-      prod.quantity = 1
+      prod.quantity = 1;
       setCartItems([...cartItems, prod]);
     }
   };

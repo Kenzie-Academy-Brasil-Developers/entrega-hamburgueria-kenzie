@@ -28,7 +28,6 @@ export const CartOrganizer = styled.div`
 
     color: var(--color-text-in-primary);
     font-size: 1.4rem;
-    
   }
 
   .cart-items {

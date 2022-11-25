@@ -6,7 +6,7 @@ export const Form = styled.form`
   padding: 0 10px 0 10px;
   position: relative;
 
-  @media(min-width: 800px){
+  @media (min-width: 800px) {
     width: 400px;
   }
 

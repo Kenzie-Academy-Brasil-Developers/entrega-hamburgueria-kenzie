@@ -1,7 +1,6 @@
 import { StyledCard } from "./styles";
 
 export function ProductCard({ img, name, category, price, addToCart }) {
-
   return (
     <StyledCard>
       <figure>
@@ -16,7 +15,9 @@ export function ProductCard({ img, name, category, price, addToCart }) {
             currency: "BRL",
           })}
         </span>
-        <button onClick={() => (addToCart({img, name, category, price}))}>Adicionar</button>
+        <button onClick={() => addToCart({ img, name, category, price })}>
+          Adicionar
+        </button>
       </div>
     </StyledCard>
   );

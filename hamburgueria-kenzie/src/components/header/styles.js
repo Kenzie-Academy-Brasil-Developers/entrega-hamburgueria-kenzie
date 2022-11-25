@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  
   background-color: var(--color-grey-0);
   gap: 10px;
   padding-top: 13px;
@@ -9,7 +8,7 @@ export const StyledHeader = styled.header`
   flex-direction: column;
   align-items: center;
   height: 120px;
-  @media(min-width: 800px){
+  @media (min-width: 800px) {
     flex-direction: row;
     gap: 43%;
     padding: 0 20px 0 20px;

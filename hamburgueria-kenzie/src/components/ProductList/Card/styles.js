@@ -10,7 +10,7 @@ export const StyledCard = styled.li`
   border: 2.5px solid var(--color-grey-20);
   border-radius: 6px;
 
-  @media(min-width: 800px) {
+  @media (min-width: 800px) {
     width: 220px;
   }
   figure img {
@@ -25,23 +25,23 @@ export const StyledCard = styled.li`
     overflow: hidden;
     background-color: var(--color-grey-0);
   }
-  .card-infos{
+  .card-infos {
     background-color: var(--color-background);
     width: 100%;
     height: 55%;
-    border-radius:  0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
     padding: 15px 12px;
-    
+
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
-  span{
+  span {
     font-weight: 600;
     color: var(--color-primary);
   }
 
-  button{
+  button {
     width: fit-content;
     padding: 6px 12px;
     border: none;
