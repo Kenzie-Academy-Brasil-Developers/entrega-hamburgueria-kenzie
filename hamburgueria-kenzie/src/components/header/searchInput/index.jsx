@@ -25,9 +25,7 @@ export function SearchInput({ products, setFilteredProducts }) {
     pesquisa === "" || undefined
       ? setFilteredProducts(products)
       : setFilteredProducts(filtrado);
-    filtrado.length >= 1
-      ? setFilteredProducts(filtrado)
-      : setFilteredProducts(products);
+
   }, [pesquisa]);
 
   return (

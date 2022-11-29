@@ -11,6 +11,7 @@ export const CartOrganizer = styled.div`
   background-color: var(--color-grey-0);
   @media (min-width: 800px) {
     margin-top: 40px;
+    margin-right: 15px;
     height: fit-content;
     max-height: 600px;
     padding-bottom: 20px;

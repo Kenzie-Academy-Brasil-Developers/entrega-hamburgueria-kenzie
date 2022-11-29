@@ -39,7 +39,7 @@ function App() {
       <Header products={products} setFilteredProducts={setFilteredProducts} />
       <main>
         <ProductList products={filteredProducts} addToCart={addToCart} />
-        <Cart cartItems={cartItems} setCartItems={setCartItems} />
+        <Cart cartItems={cartItems} setCartItems={setCartItems}/>
       </main>
     </StyledPage>
   );

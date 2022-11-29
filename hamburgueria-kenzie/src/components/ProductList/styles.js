@@ -6,6 +6,8 @@ export const StyledProductList = styled.ul`
   gap: 20px;
   padding: 20px 0 20px 20px;
   min-height: 345px;
+  max-width: 98vw;
+  
   @media (min-width: 800px) {
     margin-top: 20px;
     width: 55%;
