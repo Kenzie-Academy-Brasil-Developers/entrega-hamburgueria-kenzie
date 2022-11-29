@@ -13,14 +13,20 @@ export const StyledHeader = styled.header`
     gap: 43%;
     padding: 0 20px 0 20px;
     justify-content: space-evenly;
+    
   }
 
   h1 {
     font-size: 3rem;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
   }
   span {
+    margin-left: 5px;
     font-size: 1.9rem;
     color: var(--color-secondary);
+    padding-bottom: 3px;
   }
 `;
